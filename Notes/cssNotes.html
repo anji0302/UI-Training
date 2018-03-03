@@ -1,0 +1,98 @@
+Css : Cascading style sheet.
+	to adding effects(colors, background, animation, borders, spaces, alignments)to the html page.
+	
+	3types of css :
+	 1 inline css
+	 2 internal css
+	 3 external css
+	 
+	 1 inline css:
+	 <img src="" width="40%" height="300">
+	 <img src="" style="width:300px;height:100%;">
+	 //1inlinecss.html
+	 
+	 2 internal css:
+	 writing css properties inside <style> tag 
+	we can not add more than one id for each tag, but we can create more than one class for each tag.
+		id is high priority than class.class
+		inline css is high priority than id and .class
+		!important is high priority than others
+		if two classes existed for same tag and duplicate property existed then bottom one is updated.
+
+	 selectors
+		id, class,tag
+		#id{
+
+		}
+		.class{
+
+		}
+		tag{
+
+		}
+
+	3 external css: writing css properties in a external page and adding extension .css. 
+	<link href="stylel.css" rel="stylesheet>
+	 CSS Properties:
+	 size:
+		width:300px or 30%;
+		height:300px or 40%;
+		
+	background-color:red or #FF0000 or rgb(147,38,255) or rgba(2,3,4,0.5);
+	background-image:url(3.jpg)
+	background-size:width height;
+	background-repeat:no-repeat or repeat-x or repeat-y or repeat-xy(default)
+	background-position:top left , top right , top center, bottom left, bottom right, bottom center, center left, center right, center center, 30px 40px, -50px -60px;
+	//2background.html
+	 
+	 border:3px solid red;
+	 border-right:4px dashed green;
+	 //3border.html
+	 
+	 border-radius:30px;
+	 border-radius:30px 50px 60px 20px;
+	 border-radius:30px 0px 0px 0px;
+	 border-top-left-radius:40px;
+	 //4border-radius.html
+	 
+	 margin: adding spaces outside(external) the tag.
+	 margin:10px;
+	 margin-left:20px;
+	 margin:20px 40px;//20px for top and botom, 40px for left & right.
+	 margin:0px auto;to keep the tag in the centter of the screen
+	 //5margin.html
+	 
+	 padding:adding spaces inside the tag.
+	 padding:10px;
+	 padding-left:10px;
+	 padding:20px 40px;//20px for top and botom, 40px for left & right.
+	 we can not give auto.
+	 //6padding.html
+	 
+	 float: to align the tags side by side.
+	 float:left or right or none
+	 //7float.html
+	 
+	 text:
+		color:red or #232323 or rgb(3,4,5);
+		text-align:center or left(default) or right or justify
+		line-height:40px;to adding height to the line. to keep the one line text vertically center.
+				text-align:center;line-height:40px;
+		text-transform:lowercase or uppercase or capitalize;
+		letter-spacing:20px;
+		word-spacing:20px;
+		text-decoration:none or underline or overflow or line-through
+		vertical-align:sub or sup or 10px or -10px;
+	//8text.html 
+	 
+	 font:
+		font-size:10px;
+		font-family:verdana or timesnewroman;
+		font-style:italic;
+		font-weight:bold;
+		font-variant:small-caps;
+	 
+	 clear:both or left or right;
+	 to remove the float property;
+	 
+	 

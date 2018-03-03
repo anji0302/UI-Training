@@ -1,0 +1,10 @@
+<html>
+	<head></head>
+	<body>
+		<div style="width:1000px;height:400px;margin:0px auto;background:green;">
+			<div style="width:480px;height:180px;margin:10px;background:red;float:left"></div>
+			<div style="width:480px;height:180px;margin:10px;background:blue;float:right"></div>
+			
+		</div>
+	</body>
+<html>

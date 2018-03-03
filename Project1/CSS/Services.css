@@ -1,0 +1,112 @@
+
+*{
+  margin: 0px auto;
+}
+.root{
+  width: 1000px;height:auto;
+}
+.header{
+  width: 1000px;height:100px;
+}
+.menu{
+  width: 1000px;height:60px;background: lightgray
+}
+.slider{
+  width: 1000px;height: 500px;background: lightgray;
+}
+.content{
+  width: 1000px;height: 600px;background:lightgray
+}
+.footer{
+  width: 1000px;height: 100px;background: rgb(19, 19, 12);
+}
+
+.header .logo{
+  width: 100px;height: 100px;float: left;
+}
+.header .logo img{
+  width: 90px;height: 90px;float:left;margin-left: 10px;
+}
+.header .name{
+  text-align: center;color:#eb6c06;float: left;font-size: 20px;margin-top:30px;margin-left: 20px;border:2px solid #eb6c06;padding: 5px;
+  }
+.header .icons  img{
+  width: 50px;height: 50px;float:right;margin-right: 5px;margin-top:30px
+}
+
+
+.header .icons img:hover{
+  border :2px solid gray;width: 46px;height: 46px;
+}
+
+
+.menu .list{
+  width: 980px;height:50px;float: left;
+  padding: 0;margin: 5px 10px;
+}
+.menu .list li{
+  width: 192px;height:46px;background: rgb(235, 238, 233);float:left;list-style: none;line-height: 50px;text-align: center;border:2px solid whitesmoke;font-size: 20px;
+}
+
+.menu .list li:hover{
+  font-size: 30px;border:2px solid #eb6c06;background: white;
+}
+.menu .list li a{
+  text-decoration: none;color: black;
+}
+
+
+.slider img {
+  width: 980px;height: 495px;margin-left:10px;margin-top:5px;
+}
+
+
+.content .left {
+  width: 190px;height: 580px;float: left;  background:white;margin-top: 10px;margin-left: 10px;
+}
+.left .list{
+  padding: 0px; margin: 0px;
+}
+.left .list li{
+list-style: none;line-height: 50px;text-align: center;border-bottom:5px solid lightgray;font-size: 20px;
+}
+.left .list li a{
+  text-decoration: none;color:black
+}
+.left .list li:hover{
+  font-size: 30px; background: lightskyblue
+}
+.left .l_img{
+  width:190px;height: 305px;
+}
+.l_img img{
+  width:100px;height: 100px;margin-left:45px
+}
+
+.content .right{
+  width: 800px;height: 600px;float: left;background: lightgrey
+}
+.right .r_layout{
+  width: 256.6px;height: 580px;background: white;float: left;margin-top: 10px;margin-right:5px;
+}
+.r_layout .imgright{
+  width: 200px;height: 200px;margin: 10px 20px;
+}
+.r_layout p{
+  margin: 5px 5px;text-align: justify;height: 345px;overflow: auto;
+}
+
+
+.footer .list{
+  padding: 0px; margin: 0px auto;width: 330px;height: 40px;padding-top: 10px;
+}
+.footer .list li{
+list-style: none;;float: left;margin: 5px;
+}
+.footer .list li a{
+  text-decoration: none;color:white
+}
+.footer .copy{
+  color: white;text-align: center;margin-top: 10px;
+}
+
